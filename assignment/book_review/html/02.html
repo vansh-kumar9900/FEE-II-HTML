@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOK REVIEW BLOG</title>
+    <style>
+
+        body{
+            background-image: url(/assignment/book_review/images/library-book-shelf.webp);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        header{
+            margin-top: 15px;
+        }
+        .container{
+            height: 10vh;
+            width: 100%;
+            display: flex;
+            justify-items: center;
+            justify-content: space-around;
+            
+        }
+        .links{
+            display: flex;
+            align-items: center;
+            gap: 100px;
+            font-size: 21px;
+            cursor: pointer;
+            font-weight: 400;
+         }
+         .links a{
+            color: black;
+            text-decoration: underline;
+            font-weight: 600;
+            transition: transform 0.1s ease-in-out;
+         }
+         .links a:hover{
+            transform: scale(1.1);
+         }
+        .logo{
+            margin-top: 15px;
+        }
+        .body-container{
+            height: 83vh;
+            width: 100%;
+            display: flex;
+            justify-content:space-evenly;
+            transition: transform 0.2s ease-in-out;
+            margin-top: 15px;
+        }
+        .image{
+         
+            height: 75vh;
+            width: 100%;
+            padding: 10px;
+            border: 1px solid black;
+            margin: 30px;
+            border-radius: 10px;
+            filter: blur();
+            background: rgba(255, 255, 255, 0.6); 
+            box-shadow: 2px 4px 8px rgba(1, 1, 1, 0.3);
+        }
+
+        .image img{
+            height: 300px;
+            border-radius: 5px;
+            transition: transform 0.3s ease-in-out;
+            box-shadow: black;
+            
+        }
+        .image img:hover{
+            transform: scale(1.1);
+        }
+        .image p {
+            
+            color: #000;
+            font-size: 16px;
+            line-height: 1.5;
+            font-family:'Times New Roman', Times, serif;
+           
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <img src="/assignment/book_review/images/logo project.png" alt="">
+            </div>
+            <div class="links">
+                <a href="Home">Home</a>
+                <a href="Prefrences">Prefrences</a>
+                <a href="Books">Books</a>
+                <a href="About Us">Reviews</a>
+            </div>
+        </nav>
+    </header>
+    <div class="body-container">
+        <div class="image">
+                <aside style="float: right; margin-left: 10px;">
+                    <img src="/assignment/book_review/images/harry potter.webp " alt="" height="300px">
+                </aside> 
+                <h3><u>Harry Potter And The Order Of The Phoenix</u></h3>
+                <p>"Harry Potter and the Order of the Phoenix" follows Harry's fifth year at Hogwarts, where he faces the return of Voldemort and the skepticism of the wizarding world. He forms Dumbledore's Army to combat the oppressive regime of the Ministry of Magic. The story delves into themes of resistance, loyalty, and the cost of fighting evil. By 2007, over 55 million copies had been sold .</p>
+                <p><b>Genre : </b>Fantasy , Mystery , Adventure , Fiction</p>
+                <p><b>Reviews : </b>4.5 / 5</p>
+                <p><b>Written by : </b>JK ROWLING</p>
+        </div>
+        <div class="image">
+            <aside style="float: right; margin-left: 10px;">
+                <img src="/assignment/book_review/images/secrets of dumbeldore.jpg" alt="" height="300px">
+            </aside> 
+            <h3><u>Fantastic Beasts: The Secrets of Dumbledore</u></h3>
+            <p>"Fantastic Beasts: The Secrets of Dumbledore" follows Newt Scamander and his allies as they uncover hidden truths about Dumbledore's past and work to stop Grindelwald's dark rise to power. The film explores themes of loyalty, friendship, and the struggle between good and evil in the wizarding world, blending magical creatures, intense battles, and deep secrets. And sold over like a million copies .</p>
+            <p><b>Genre : </b>Action , Drama , Adventure , Fiction</p>
+            <p><b>Reviews : </b>4.7 / 5</p>
+            <p><b>Written by : </b>JK ROWLING</p>
+        </div>
+        <div class="image">
+            <aside style="float: right; margin-left: 10px;">
+                <img src="/assignment/book_review/images/atomic habits.jpg" alt="" height="300px">
+            </aside> 
+            <h3><u>Atomic Habits</u></h3>
+            <p>"Atomic Habits" is a practical guide to building good habits and breaking bad ones. Clear emphasizes small, consistent actions, or "atomic habits," that compound over time to produce remarkable results. He outlines a framework of four steps: cue, craving, response, and reward, to help readers understand and modify their habits effectively. By focusing on identity-based habits and creating systems rather than goals .</p>   
+            <p><b>Genre : </b>Self growth , Personal Development & Stratigies </p>
+            <p><b>Reviews : </b>4.9 / 5</p>
+            <p><b>Written by : </b>JAMES CLEAR</p>
+        </div>
+    </div>
+</body>
+</html>
