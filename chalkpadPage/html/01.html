@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chitkara Chalkpadpro</title>
+    <style>
+        body{
+            background-image: url(/chalkpadPage/images/Chitkara_University_pic.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-size: 14px;
+        }
+
+        .heading{
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            width: 100%;
+        }
+        .line{
+            height: 5px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: red;
+        }  
+        .logo{
+            z-index: 1;
+            /* margin-left:20px;
+            position: absolute;
+            top: 0; */
+        } 
+        .logo img {
+            width: 50px;
+        }
+        .login{
+            height: 480px;
+            width: 230px;
+            float: right;
+            margin-top: 73px;
+            margin-right:310px;
+            background-color: white;
+            border: 2px solid grey;
+        }
+        .chitkaralogo img{
+            height: 80px;
+            padding: 17px;
+            margin-left: 30px;
+        }
+        .username{
+            padding: 2px;
+            margin-top: 0px;
+            margin-left: 20px;
+        }
+        .username input{
+            margin-top: 3px;
+        }
+        .password{
+            margin-left: 20px;
+            margin-top: 6px;
+        }
+        .password input{
+            margin-top: 4px;
+        }
+        .password label{
+            margin-top: 13px;
+        }
+        .session{
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+        .session #sessionss{
+            margin-top: 4px;
+            width: 170px;
+        }
+        .checkpassword{
+            margin-left: 20px;
+            margin-top: 6px;
+        }
+        .button{
+            margin-top: 10px;
+            /* display: flex;
+            justify-content: center; */
+            margin-left: 20px;
+        }
+        #sign-in{
+            width: 180px ;
+            height: 27px;
+            background-color: rgb(190, 46, 46);
+            color: white;
+            border: none;
+        }
+        .logooos{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .lastlogooos img{
+            height: 20px;
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+        .lastlogo .liness{
+            margin-left: 35px;
+        }
+        .lastlogo{
+            display: flex;
+            
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <div class="logo">
+                <img src="/chalkpadPage/images/cb_top_right_icon.png" alt="">
+            </div>
+            <div class="line"></div>
+        </div>
+        <div class="login">
+            <div class="chitkaralogo">
+                <img src="/chalkpadPage/images/logo_373.png" alt="">
+            </div>
+            <div class="username">
+                <label for="username">Username</label><br>
+                <input type="text " id="username">
+            </div>
+            <div class="password">
+                <label for="password">Password</label><br>
+                <input type="text " id="password">
+            </div>
+            <div class="session">
+                <label for="sessionss">Session</label><br>
+                <select name="month-year" id="sessionss">
+                    <option value="1"> Jul-Dec 2022</option>
+                    <option value="1"> Jan-Dec 2022</option>
+                    <option value="1"> Jan-Jun 2022</option>
+                    <option value="1"> Jul-Dec 2024</option>
+                </select>
+            </div>
+            <div class="checkpassword">
+                <input type="checkbox" id="check">
+                <label for="check">Remember Password</label>
+            </div>
+            <div class="button">
+                <button id="sign-in">
+                    Sign In
+                </button>
+                <p id="text" style="margin-top: 3px;">Forgot your password? Click here <br> <u>Privacy Policy</u></p>
+            </div>
+            <div class="logooos">
+                <div class="apple">
+                    <img src="/chalkpadPage/images/apple_store_icon.png" alt="">
+                </div>
+                <div class="playstore">
+                    <img src="/chalkpadPage/images/gplaystore_icon.png" alt="">
+                </div>
+                
+            </div>
+            <p style="margin-top: 5px;text-align: center;"><b>Mobile App Code : 800002</b></p>
+            <div class="lastlogo">
+                <div class="liness">
+                    <p>powered by</p>
+                </div>
+                <div class="lastlogooos">
+                    <img src="/chalkpadPage/images/code-brigade-logo-small.png" alt="">
+                 </div>
+        </div>
+    </div>
+</body>
+</html>
