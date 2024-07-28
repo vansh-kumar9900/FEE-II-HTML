@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM CSS</title>
+    <style>
+        .container{
+            height: 100vh;
+            width: 100vh ;
+            background-color: rgb(212, 226, 240);
+            margin-left: 400px;
+            border: 1px solid brown;
+        }
+        .heading{
+            display: flex;
+            justify-content: center;
+        }
+        .input{
+            
+            margin-left: 20px;
+        }
+        .input label{
+            font-size: 23px;
+            text-decoration: underline;
+            color: rgb(3, 3, 48);
+        }
+        .input input{
+            font-size: 17px;
+            padding: 7px;
+            height: 15px;
+            width: 200px;
+            border-radius: 5px;
+            border: none;
+            background-color: rgb(228, 241, 254);
+        }
+        .input input::placeholder{
+            padding: 5px;
+            font-size: 16px;
+            text-decoration: underline;
+        }
+        #lastname input{
+            margin-left: 6px;            
+        }
+        #dateofbirth input{
+            margin-left: 6px;
+        }
+        #email input{
+            margin-left: 6px;
+            width: 350px;
+        }
+        #phone-number input{
+            margin-left: 4px;
+        }
+
+        #country-code {
+            width: 28px;
+            height: 15px;
+            border-radius: 5px 0 0 5px;
+            border: none;
+            background-color: rgb(228, 241, 254);
+            text-align: center;
+        }
+        #country select{
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        
+    </center>
+    <div class="container">
+        <div id="heading">
+            <header>
+                <center>
+                    <h1>
+                        APPLICATION FORM
+                    </h1>
+                    <hr />
+                </center>  
+            </header>
+        </div>
+        <br><br>
+        <div class="input">
+            <div id="firstname">
+                <label for="first-name"><b>First Name : </b></label>
+                <input type="text" id="first-name" placeholder="Enter First Name ">
+            </div>
+            <br>
+            <div id="lastname">
+                <label for="last-name"><b>Last Name : </b></label>
+                <input type="text id" id="last-name" placeholder="Enter Last Name">
+            </div>
+            <br>
+            <div id="dateofbirth">
+                <label for=""><b>Date Of Birth :</b></label>
+                <input type="date" name="" id="">
+            </div>
+            <br>
+            <div id="email">
+                <label for="email"><b>Email Id : </b></label>
+                <input type="text" name="email" id="email" placeholder="Enter Email ">
+            </div>
+            <br>
+            <div id="phone-number">
+                <label for=""><b>Enter Phone Number : </b></label>
+                <input type="text" id="country-code" value="+91" readonly>
+                <!-- <select name="" id="">
+                    <option value="" id="country-code">+91</option>
+                </select> -->
+                <input type="number" name="" id="" placeholder="Enter Number ">
+            </div>
+            <br>
+            <div id="origin">
+                <label for=""><b>Enter Your Country :</b></label>
+                <select name="" id="country">
+                    <option value="india">INDIA</option>
+                    <option value="aus">AUSTRALIA</option>
+                    <option value="pak">PAKISTAN</option>
+                    <option value="europe">EUROPE</option>
+                    <option value="america">AMERICA</option>
+                    <option value="sa">SOUTH AFRICA</option>
+                </select>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
