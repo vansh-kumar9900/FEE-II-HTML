@@ -1,0 +1,20 @@
+ul li a{
+    color: green;
+    font-size: 30px;
+}
+h1{
+    color: rgb(3, 3, 169);
+}
+ol>li{
+    color: red;
+}
+ol>li>ul{
+    color: blue;
+}
+h3+p{
+    border-top: 2px solid;
+    font-size: 20px;
+}
+div p{
+    color: royalblue;
+}

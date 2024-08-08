@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+        .container{
+            
+            border: 2px solid rgb(0, 0, 0);
+            display: grid;
+            gap: 0;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+            grid-template-rows: 70px;
+        }
+        .item{
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 0.1px solid rgb(2, 2, 2);
+        }
+        .new{
+            border: none;
+        }
+        .top-header{
+            background-color: black;
+            color: white;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: large;
+        }
+        .heading{
+            font-size: 25px;
+            font-weight: 600;
+            background-color: #D6FF38;
+        }
+        .logo-link{
+            display: flex;
+            justify-content:center;
+            align-items: center;
+        }
+        .add-to-bag,.login-photo,.login{
+            margin-left: 15px;
+        }
+        .base{
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* border: 1px solid rgb(2, 2, 2); */
+        }
+        .body-heading{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 100px;
+            font-size: 30px;
+        }
+        .neon-heading{
+            display: flex;
+            justify-content: center;
+            background-color: #D6FF38;
+            width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-header">
+        <div class="sale">
+            <p>Sale is on! 25% off sitewide using TEES25 at checkout</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="heading item">T SHOP</div>
+        <div class="base1 "></div>
+        <div class="base2 "></div>
+        <div class="new item">New</div>
+        <div class="men item">Men</div>
+        <div class="women item">Women</div>
+        <div class="logo-link item">
+            <div class="login-photo"> <img src="/wix/images/8639414.png" alt="" width="30px"> </div>
+            <div class="login">
+                <p>Log In</p>
+            </div>
+            <div class="add-to-bag"><img src="/wix/images/add-to-cart.png" alt="" width="30px"></div>
+        </div>
+    </div>
+    <div class="body-heading">
+        <h1>T SHOP</h1>
+        <div class="neon-heading">There’s One for Everyone</div>
+    </div>
+    <div class="photo-container">
+        <img src="" alt="">
+    </div>
+</body>
+</html>

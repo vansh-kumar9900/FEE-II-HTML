@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            height: 100px;
+            background-color: bisque;
+            display: grid;
+            grid-template-columns: repeat(8,1fr);
+        }
+        #item{
+            color: aliceblue;
+            height: 100px;
+            width: 100px;
+            background-color: black;
+        }
+        .new{
+            grid-column-start: 2;
+            grid-column-end: 5;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="heading" id="item">tshop</div>
+        <div class="new" id="item" >new</div>
+        <div class="men" id="item">men</div>
+        <div class="women" id="item">women</div>
+        <div class="login" id="item">login</div>
+    </div>
+</body>
+</html>

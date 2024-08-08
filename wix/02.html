@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WIX</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            background-color: black;
+            color: white;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: large;
+        }
+        .navbar{
+            font-size: 20px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            border: 1px solid;
+            height: 70px;
+            justify-content: center;
+            align-items: center;
+        }
+        .links{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+        }
+        .logo-link{
+            display: flex;
+            justify-content:center;
+            align-items: center;
+        }
+        .add-to-bag,.login-photo,.login{
+            margin-left: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sale">
+            <p>Sale is on! 25% off sitewide using TEES25 at checkout</p>
+        </div>
+    </div>
+    <div class="navbar">
+        <div class="wb-name">T SHOP</div>
+        <div class="links">
+            <div><a href="#" id="item">New</a></div>
+            <div><a href="#" id="item">Men</a></div>
+            <div><a href="#" id="item">Women</a></div>
+        </div>
+        <div class="logo-link" id="item">
+            <div class="login-photo"> <img src="/wix/images/8639414.png" alt="" width="30px"> </div>
+            <div class="login">
+                <p>Log In</p>
+            </div>
+            <div class="add-to-bag"><img src="/wix/images/add-to-cart.png" alt="" width="30px"></div>
+        </div>
+    </div>
+</body>
+</html>
